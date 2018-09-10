@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<body>
+    <form onsubmit="return false;">
+        <div class="firebaseui-card-header">
+            <h1 class="firebaseui-title">Enter your phone number</h1>
+        </div>
+        <div class="firebaseui-card-content">
+            <div class="firebaseui-relative-wrapper">
+                <div class="firebaseui-phone-number"><button class="firebaseui-id-country-selector firebaseui-country-selector mdl-button mdl-js-button" data-upgraded=",MaterialButton"><span class="firebaseui-flag firebaseui-country-selector-flag firebaseui-id-country-selector-flag firebaseui-flag-US"></span><span class="firebaseui-id-country-selector-code">‎+1</span></button>
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label firebaseui-textfield firebaseui-phone-input-wrapper is-upgraded" data-upgraded=",MaterialTextfield"><label class="mdl-textfield__label firebaseui-label" for="phoneNumber">Phone number</label><input type="tel" name="phoneNumber" class="mdl-textfield__input firebaseui-input firebaseui-id-phone-number" value=""></div>
+                </div>
+                <div class="firebaseui-error-wrapper">
+                    <p class="firebaseui-error firebaseui-text-input-error firebaseui-hidden firebaseui-phone-number-error firebaseui-id-phone-number-error"></p>
+                </div>
+                <div class="firebaseui-recaptcha-wrapper">
+                    <div class="firebaseui-recaptcha-container">
+                        <div>
+                            <div style="width: 304px; height: 78px;">
+                                <div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcMZR0UAAAAALgPMcgHwga7gY5p8QMg1Hj-bmUv&amp;co=aHR0cHM6Ly9zYW50cmVua29kaW5nLm9yZzo0NDM.&amp;hl=en&amp;v=v1535045166622&amp;size=normal&amp;cb=wt2g9td1d86e" width="304" height="78" role="presentation" name="a-96nv4klsny4q" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea></div>
+                        </div>
+                    </div>
+                    <div class="firebaseui-error-wrapper firebaseui-recaptcha-error-wrapper">
+                        <p class="firebaseui-error firebaseui-hidden firebaseui-id-recaptcha-error"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="firebaseui-card-actions">
+            <div class="firebaseui-form-actions"><button class="firebaseui-id-secondary-link firebaseui-button mdl-button mdl-js-button mdl-button--primary" data-upgraded=",MaterialButton">Cancel</button><button type="submit" class="firebaseui-id-submit firebaseui-button mdl-button mdl-js-button mdl-button--raised mdl-button--colored" data-upgraded=",MaterialButton">Verify</button></div>
+        </div>
+        <div class="firebaseui-card-footer">
+            <p class="firebaseui-tos">By tapping Verify, an SMS may be sent. Message &amp; data rates may apply.</p>
+        </div>
+    </form>
+</body>
+
+</html>
